@@ -1,9 +1,11 @@
 import React from 'react'
+import Create from './Create'
 
 const Dashboard = () => {
   return (
     <div>
-      i am home
+      <h1>Dashboard</h1>
+      <Create/>
     </div>
   )
 }
