@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const LeftNav = () => {
   return (
-    <div className="flex flex-col gap-8 p-4 bg-white shadow-lg h-full">
+    <div className="flex  flex-col gap-8 p-4 bg-white shadow-lg h-full">
       {/* Logo and Title */}
       <div className="flex items-center gap-2 font-bold text-lg h-16">
         <NavLink to="/">
@@ -17,10 +17,10 @@ const LeftNav = () => {
 
       {/* Navigation Links */}
       <div>
-        <ul className="flex flex-col space-y-4">
-          <li className="h-12 w-36 rounded-sm p-3 hover:bg-gray-100 transition-all duration-200">
-            <NavLink to="/" className="flex items-center text-gray-600 hover:text-blue-600">
-              <BsSpeedometer className="mr-2 text-xl" />
+        <ul className="flex flex-col gap-2">
+          <li className="h-12 w-36 rounded-sm p-3 hover:bg-gray-100 transition-all duration-200 ">
+            <NavLink to="/" className="flex items-center text-gray-600 hover:text-blue-600 ">
+              <BsSpeedometer className="mr-2 text-xl " />
               Dashboard
             </NavLink>
           </li>

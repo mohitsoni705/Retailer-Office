@@ -3,7 +3,7 @@ import { IoMdHelpCircleOutline } from 'react-icons/io';
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between p-4 bg-gray-50 shadow-md">
+    <div className="flex items-center fixed w-full justify-between p-4 bg-gray-50 shadow-md">
       {/* Search Input */}
       <div className="flex flex-1">
         <input
