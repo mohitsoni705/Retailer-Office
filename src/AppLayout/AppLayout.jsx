@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 
 const AppLayout = () => {
   return (
-    <div className='flex flex-row  bg-[#F3F4F6]'>
+    <div className='flex flex-row  bg-black  border-gray-400 '>
       <div className='bg-white rounded'>
       <LeftNav className="flex-none w-[250px] h-screen" />
       </div>
